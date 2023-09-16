@@ -1,0 +1,311 @@
+*,
+* ::before,
+* ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+
+}
+
+:root {
+    --color1: rgba(255, 255, 255, 1);
+
+}
+
+
+
+
+.Header {
+    top: 0;
+    width: 100vw;
+    background-color: rgba(111, 106, 247, 1);
+    width: 100vw;
+    height: 5em;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#Title {
+
+    color: var(--color1);
+    font-family: "Delius Unicase";
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0em;
+
+}
+
+.List_Items {
+
+    list-style: none;
+    display: inline-flex;
+    gap: 3rem;
+
+}
+
+.List {
+    color: var(--color1);
+    font-family: DM Sans;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+.Search_Bar #txt {
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 63px;
+    padding: 10px;
+
+}
+
+.Search_Bar #search_logo {
+    width: 1em;
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+
+.Hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    position: relative;
+    top: -5px;
+
+}
+
+
+.line {
+
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: var(--color1);
+
+}
+
+
+.Help_Button {
+    position: fixed;
+    bottom: 2px;
+    right: 10px;
+
+}
+
+.Help_Button #img {
+    width: 7.5em;
+    height: 7.5em;
+}
+
+.Social_Sticky {
+    top: 0;
+    margin-top: 5.5em;
+    padding-top: 7em;
+    display: flex;
+    flex-direction: column;
+    width: 2.5em;
+    gap: 2px;
+    position: sticky;
+    float: right;
+}
+
+.Container1 {
+    padding-top: 10em;
+    padding-left: 5em;
+    width: 95vw;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#Coding_img {
+    width: 20em;
+}
+
+.Text_box {
+    width: 42em;
+    background-color: rgba(229, 216, 255, 1);
+    border: 6px solid white;
+    border-radius: 20px;
+
+}
+
+#Information {
+
+    color: rgba(111, 115, 115, 1);
+    padding-left: 6px;
+    padding-top: 5px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.Container2 {
+    width: 95vw;
+    padding-top: 5em;
+    padding-left: 4em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Container2 #Box1 {
+    width: 12em;
+    height: 5em;
+    background-color: rgba(146, 157, 255, 1);
+    border-radius: 11px;
+}
+
+.Container2 #Box2 {
+    width: 12em;
+    height: 5em;
+    background-color: rgba(115, 76, 242, 1);
+    border-radius: 11px;
+}
+
+.Container2 #Box3 {
+    width: 12em;
+    height: 5em;
+    background-color: rgba(210, 136, 255, 1);
+    border-radius: 11px;
+}
+
+.Container2 #Box4 {
+    width: 12em;
+    height: 5em;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 11px;
+}
+
+.Box {
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+.Container3{
+
+    width: 95vw;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.Internal_Container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(72,52,255,1);
+    width: 95vw;  
+    height: 25em;
+}
+
+.Internal_Container #Left_Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.LS_Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: DM Sans;
+    font-size: 100%;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+
+
+}
+
+#LS_Box1{
+    width: 12em;
+    height: 5em;
+    background-color: rgba(188,224,246,1);
+    border-style: none;
+    border-radius: 20px;
+}
+
+#LS_Box2{
+    width: 12em;
+    height: 5em;
+    background-color:rgba(72,52,255,1);; 
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+}
+
+#LS_Box3{
+    width: 12em;
+    height: 5em;
+    background-color: rgba(72,52,255,1);;
+    border-style:solid;
+    border-color: rgba(255, 255, 255, 1) ;
+    border-radius: 20px;
+}
+
+.Internal_Container  #Right_Section{
+    width: 50em;
+    height: 22em;
+    margin-top: 1.5em;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+
+    
+}
+
+#Right_Section h2{
+
+    padding-top: 1.5em;
+    padding-left: 1em;
+    color: rgba(4,40,90,1);
+
+}
+
+
+
+.Information{
+
+    font-family: Inter;
+    font-size: larger;
+    font-weight: 500;
+    padding-top: 2em;
+    padding-left: 3em;
+
+    color: rgba(4,40,90,1);
+}
+
+
+
